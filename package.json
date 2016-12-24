@@ -1,0 +1,19 @@
+{
+  "name": "humpty-dumpty",
+  "version": "0.0.10001",
+  "description": "Dump huge amounts of egg-shaped data",
+  "main": "index.js",
+  "scripts": {
+    "test": "suman"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORESoftware/humpty-dumpty.git"
+  },
+  "author": "Olegzandr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ORESoftware/humpty-dumpty/issues"
+  },
+  "homepage": "https://github.com/ORESoftware/humpty-dumpty#readme"
+}
