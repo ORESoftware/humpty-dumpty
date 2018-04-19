@@ -1,6 +1,6 @@
 {
   "name": "humpty-dumpty",
-  "version": "0.0.10001",
+  "version": "0.0.10002",
   "description": "Dump huge amounts of egg-shaped data",
   "main": "index.js",
   "scripts": {
