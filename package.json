@@ -1,19 +1,36 @@
 {
   "name": "humpty-dumpty",
-  "version": "0.0.10002",
-  "description": "Dump huge amounts of egg-shaped data",
-  "main": "index.js",
+  "version": "0.0.101",
+  "description": "Semver-oriented TypeScript library skeleton.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
+  "bin":{
+    "humpty_dumpty":"lib/cli.js",
+    "humpty-dumpty":"lib/cli.js"
+  },
   "scripts": {
-    "test": "suman"
+    "test": "suman test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ORESoftware/humpty-dumpty.git"
+    "url": "git+https://github.com/your-org/humpty-dumpty.git"
   },
-  "author": "Olegzandr",
-  "license": "ISC",
+  "keywords": [
+    "typescript",
+    "library",
+    "skeleton",
+    "scaffold"
+  ],
+  "author": "Olegzandr VD",
+  "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
-    "url": "https://github.com/ORESoftware/humpty-dumpty/issues"
+    "url": "https://github.com/your-org/humpty-dumpty/issues"
   },
-  "homepage": "https://github.com/ORESoftware/humpty-dumpty#readme"
+  "homepage": "https://github.com/your-org/humpty-dumpty#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/core-js": "^0.9.46",
+    "@types/node": "^9.6.2"
+  }
 }
