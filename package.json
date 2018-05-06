@@ -7,7 +7,9 @@
   "typings": "lib/index.d.ts",
   "bin": {
     "humpty_dumpty": "lib/cli.js",
-    "humpty-dumpty": "lib/cli.js"
+    "humpty-dumpty": "lib/cli.js",
+    "hudu": "lib/cli.js",
+    "humdum": "lib/cli.js"
   },
   "scripts": {
     "test": "suman test"
